@@ -12,4 +12,4 @@ WORKDIR /usr/src/dockertest1
 RUN clang++ -o Test New.cpp
 
 # Run the output program from the previous step
-CMD ["./New"]
+CMD ["New"]
